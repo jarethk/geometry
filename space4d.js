@@ -131,7 +131,6 @@ const surroundSet = [
     [+1, +1, +1, -1],
     [+1, +1, +1, 0],
     [+1, +1, +1, +1],
-
 ];
 
 function getSurrounding(point) {
