@@ -1,16 +1,19 @@
 {
     "name": "geometry",
-    "version": "1.4.0",
+    "version": "2.0.0",
     "description": "A set of geometry functions and utilities",
     "keywords": [
         "distance",
         "manhattan",
-        "geometry"
+        "geometry",
+        "game of life"
     ],
     "exports": {
         "./manhattan.js": "./manhattan.js",
         "./compass.js": "./compass.js",
-        "./space.js": "./space.js",
+        "./space2d.js": "./space2d.js",
+        "./space2dhex.js": "./space2dhex.js",
+        "./space3d.js": "./space3d.js",
         "./space4d.js": "./space4d.js"
     },
     "type": "module",
@@ -19,7 +22,7 @@
     "author": "David Fuller (https://github.com/jarethk)",
     "repository": {
         "type": "git",
-        "url": "https://github.com/jarethk/manhattan.git"
+        "url": "https://github.com/jarethk/geometry.git"
     },
     "devDependencies": {
         "@babel/core": "^7.20.12",
@@ -30,7 +33,7 @@
         "jest": "^29.4.1"
     },
     "dependencies": {
-        "num-wrap": "file:../num-wrap"
+        "num-wrap": "https://github.com/jarethk/num-wrap.git"
     },
     "scripts": {
         "test": "jest"
